@@ -1,16 +1,15 @@
 require.config({
   paths: {
-    knockout: 'bower_components/knockout/dist/knockout',
-    text: 'bower_components/text/text',
-    alerts: 'lib/alerts',
-    alert: 'lib/alert'
+    'knockout':  'bower_components/knockout/dist/knockout',
+    'text':      'bower_components/text/text',
+    'ko-alerts': '.'
   }
 });
 
-require(['knockout', 'alerts'], function(ko, alerts) {
+require(['knockout'], function(ko) {
   'use strict';
 
-  ko.components.register('alerts', alerts);
+  ko.components.register('alerts', { require: 'ko-alerts/lib/alerts' });
 
   ko.applyBindings({
     alerts: ko.observable([

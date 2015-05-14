@@ -24,15 +24,14 @@ Load module:
 // app.js
 require.config({
   paths: {
-    knockout: 'bower_components/knockout/dist/knockout',
-    text: 'bower_components/text/text',
-    alerts: 'bower_components/ko-alerts/lib/alerts',
-    alert: 'bower_components/ko-alerts/lib/alert'
+    knockout:    'bower_components/knockout/dist/knockout',
+    text:        'bower_components/text/text',
+    'ko-alerts': 'bower_components/ko-alerts'
   }
 });
 
-require(['knockout', 'alerts'], function(ko, alerts) {
-  ko.components.register('alerts', alerts);
+require(['knockout'], function(ko) {
+  ko.components.register('alerts', { require: 'ko-alerts/lib/alerts' });
 });
 ```
 
