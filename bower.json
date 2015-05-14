@@ -1,0 +1,35 @@
+{
+  "name": "ko-alerts",
+  "version": "1.0.0",
+  "authors": [
+    "Marius Craciunoiu"
+  ],
+  "description": "Components to display bootstrap and bootstrap-like alerts.",
+  "main": "lib/alerts.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "alerts",
+    "knockout",
+    "ko",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mariusc23/ko-alerts",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "~3.3.0",
+    "requirejs": "~2.1.17",
+    "text": "~2.0.14"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
