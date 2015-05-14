@@ -3,6 +3,10 @@
 
 > Components to display bootstrap and bootstrap-like alerts.
 
+[![npm](https://img.shields.io/npm/v/ko-alerts.svg)](https://www.npmjs.com/package/ko-alerts)
+[![bower](https://img.shields.io/bower/v/ko-alerts.svg)](https://github.com/lintelio/ko-alerts)
+[![Build Status](https://travis-ci.org/mariusc23/ko-alerts.svg)](https://travis-ci.org/mariusc23/ko-alerts)
+
 
 ## Getting Started
 
