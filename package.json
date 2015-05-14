@@ -1,8 +1,11 @@
 {
   "name": "ko-alerts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Components to display bootstrap and bootstrap-like alerts.",
-  "main": "lib/alerts.js",
+  "main": [
+    "lib/alerts.js",
+    "lib/alert.js"
+  ],
   "scripts": {
     "test": "gulp test"
   },

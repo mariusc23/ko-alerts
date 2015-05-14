@@ -2,7 +2,8 @@ require.config({
   paths: {
     knockout: 'bower_components/knockout/dist/knockout',
     text: 'bower_components/text/text',
-    alerts: 'lib/alerts'
+    alerts: 'lib/alerts',
+    alert: 'lib/alert'
   }
 });
 
