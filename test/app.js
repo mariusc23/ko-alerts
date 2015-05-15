@@ -15,29 +15,29 @@ require(['knockout'], function(ko) {
     alerts: ko.observable([
       {
         title: 'Success!',
-        description: 'You did something right!',
+        message: 'You did something right!',
         type: 'success',
         dismissible: false
       },
       {
         title: 'Warning!',
-        description: 'This could be dangerous.',
+        message: 'This could be dangerous.',
         type: 'warning'
       },
       {
         title: 'Error!',
-        description: 'You did something wrong!',
+        message: 'You did something wrong!',
         type: 'danger'
       },
       {
         title: 'Info!',
-        description: 'You might wanna know...',
+        message: 'You might wanna know...',
         type: 'info'
       }
     ]),
     alert: {
       title: 'Title!',
-      description: 'Description.',
+      message: 'Description.',
       type: 'warning'
     }
   });

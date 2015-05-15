@@ -48,7 +48,7 @@ require(['knockout'], function(ko) {
 ##### options.title
 Alert title. Displays in `<strong>`. Optional.
 
-##### options.description
+##### options.message
 Alert message.
 
 ##### options.type
@@ -94,22 +94,22 @@ function MyShinyViewModel() {
   this.alerts = ko.observable([
     {
       title: 'Success!',
-      description: 'You did something right!',
+      message: 'You did something right!',
       type: 'success'
     },
     {
       title: 'Warning!',
-      description: 'This could be dangerous.',
+      message: 'This could be dangerous.',
       type: 'warning'
     },
     {
       title: 'Error!',
-      description: 'You did something wrong!',
+      message: 'You did something wrong!',
       type: 'danger'
     },
     {
       title: 'Info!',
-      description: 'You might wanna know...',
+      message: 'You might wanna know...',
       type: 'info'
     }
   ]);
